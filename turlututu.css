@@ -34,7 +34,13 @@ h2 {
 
 .bodylist {
     background-color: #008ae6;
-    column-count: 2;
-    column-width: 20px;
+    -moz-column-count: 2;
+    -moz-column-width: 20px;
+    -webkit-column-count: 2;
+    -webkit-column-width: 20px;
     color: white;
+}
+
+.ptitle {
+    font-size: 23px;
 }
