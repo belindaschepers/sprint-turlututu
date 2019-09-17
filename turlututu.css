@@ -31,3 +31,10 @@ h2 {
     text-align: center;
     font-size: 23px;
 }
+
+.bodylist {
+    background-color: #008ae6;
+    column-count: 2;
+    column-width: 20px;
+    color: white;
+}
