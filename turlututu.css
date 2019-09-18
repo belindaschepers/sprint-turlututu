@@ -25,6 +25,7 @@ nav {display: -ms-flexbox;
     font-family: 'Open Sans', sans-serif;
     font-size: 12px;
     font-weight: bold;
+    word-spacing: 20px;
 }
 
 ul {
@@ -111,4 +112,13 @@ h2 {
 
 body {
     font-family: 'Open Sans', sans-serif;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.logo {
+    margin-right: 900px;
 }
