@@ -1,12 +1,12 @@
 header {
-    background-color: #00001a;
+    background-color: #333333;
     color: white;
     padding: 10px;
     text-align: center;
 }
 
 .bloc {
-    background-color: #008ae6;
+    background-color: #1e93cc;
     color: white;
     padding: 100px;
     text-align: center;
@@ -33,7 +33,8 @@ h2 {
 }
 
 .bodylist {
-    background-color: #008ae6;
+    background-color: #1e93cc;
+    padding: 50px;
     column-count: 2;
     column-width: 20px;
     color: white;
@@ -55,7 +56,7 @@ h2 {
     text-align: center;
     border: 3px solid none;
     border-radius: 10px;
-    background-color: #1a1aff;
+    background-color: #165882;
     display: inline;
     padding: 20px;
     color: white;
@@ -71,5 +72,10 @@ h2 {
     display: inline;
     padding: 20px;
     color: white;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
 }
 
