@@ -39,19 +39,58 @@ li {
 .login {
     position: absolute;
     right: 12px;
+    top: 20px;
 }
 
 .img {
     position: absolute;
     left: 150px;
+    top: 20px;
+}
+
+.feat {
+    position: absolute;
+    left: 270px;
+    top: 30px;
+}
+
+.docs {
+    position: absolute;
+    left: 350px;
+    top: 30px;
+}
+
+.blog {
+    position: absolute;
+    left: 400px;
+    top: 30px;
+}
+
+.temp {
+    position: absolute;
+    left: 450px;
+    top: 30px;
+}
+
+.pric {
+    position: absolute;
+    left: 540px;
+    top: 30px;
 }
 
 .bloc {
     background-color: #1e93cc;
     color: white;
-    padding: 100px;
+    padding: 20px;
     text-align: center;
     line-height: 50px;
+}
+
+.imgtext {
+    position: absolute;
+    top: 90px;
+    right: 50px;
+    left: 50px;
 }
 
 h1 {
@@ -131,4 +170,17 @@ a {
 
 .logo {
     margin-right: 900px;
+}
+
+.logoshaut {
+    text-align: center;
+}
+
+.logobas {
+    text-align: center;
+}
+
+.thelogos {
+    background-color: #eeeeee;
+    padding: 20px;
 }
