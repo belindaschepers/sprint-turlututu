@@ -36,6 +36,16 @@ li {
     display: inline;
 }
 
+.login {
+    position: absolute;
+    right: 12px;
+}
+
+.img {
+    position: absolute;
+    left: 150px;
+}
+
 .bloc {
     background-color: #1e93cc;
     color: white;
