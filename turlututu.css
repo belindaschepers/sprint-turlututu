@@ -120,6 +120,11 @@ h2 {
     color: white;
 }
 
+.column1 {
+    position: relative;
+    bottom: 20px;
+}
+
 .ptitle {
     font-size: 23px;
 }
