@@ -130,7 +130,7 @@ h2 {
     font-size: 20px;
 }
 
-.blue {
+.blue1 {
     font-size: 20px;
     font-weight: bold;
     text-align: center;
@@ -140,6 +140,22 @@ h2 {
     display: inline;
     padding: 20px;
     color: white;
+    position: relative;
+    right : 50px;
+}
+
+.blue2 {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    border: 3px solid none;
+    border-radius: 10px;
+    background-color: #165882;
+    display: inline;
+    padding: 20px;
+    color: white;
+    position: relative;
+    right: 20px;
 }
 
 .orange {
@@ -183,4 +199,19 @@ a {
 .thelogos {
     background-color: #eeeeee;
     padding: 20px;
+}
+
+footer {
+    background-color: #333333;
+    color: white;
+    padding: 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    word-spacing: 20px;
+}
+
+.copy {
+    position: absolute;
+    right: 50px;
 }
