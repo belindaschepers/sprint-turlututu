@@ -1,0 +1,230 @@
+@import "imports/mixins.scss";
+
+//colors
+$darkgrey: #333333;
+$white: white;
+$blue: #1e93cc;
+$orange: #ff9900;
+$gray: grey;
+$marineblue: #165882;
+$banner: #eeeeee;
+
+//fonts
+$font_0: Open Sans;
+$font_1: sans-serif;
+
+//positions
+$position: absolute;
+$position2: relative;
+
+
+nav {
+	@include flex;
+    @include flex-direction;
+    @include flex-wrap;
+    @include justify-content;
+    @include align-content;
+    @include align-items;
+    }
+
+.menu {
+	background-color: $darkgrey;
+	color: $white;
+	padding: 10px;
+	font-family: $font_0, $font_1;
+	font-size: 12px;
+	font-weight: bold;
+	word-spacing: 20px;
+}
+
+ul {
+	list-style-type: none;
+}
+
+li {
+	display: inline;
+}
+
+.login {
+	position: $position;
+	right: 12px;
+	top: 20px;
+}
+
+.img {
+	position: $position;
+	left: 150px;
+	top: 20px;
+}
+
+.feat {
+	position: $position;
+	left: 270px;
+	top: 30px;
+}
+
+.docs {
+	position: $position;
+	left: 350px;
+	top: 30px;
+}
+
+.blog {
+	position: $position;
+	left: 400px;
+	top: 30px;
+}
+
+.temp {
+	position: $position;
+	left: 450px;
+	top: 30px;
+}
+
+.pric {
+	position: $position;
+	left: 540px;
+	top: 30px;
+}
+
+.bloc {
+	background-color: $blue;
+	color: $white;
+	padding: 20px;
+	text-align: center;
+	line-height: 50px;
+}
+
+.imgtext {
+	position: $position;
+	top: 90px;
+	right: 50px;
+	left: 50px;
+}
+h1 {
+	font-size: 25px;
+}
+
+h2 {
+	font-size: 20px;
+	font-weight: bold;
+	border: 3px solid $white;
+	@include border-radius;
+	background-color: $orange;
+	display: inline;
+	padding: 20px;
+}
+
+.projects {
+	text-align: center;
+	font-size: 23px;
+}
+
+.bodylist {
+	background-color: $blue;
+	padding: 50px;
+	@include column-count;
+	@include column-width;
+	color: $white;
+}
+
+.column1 {
+	position: $position2;
+	bottom: 20px;
+}
+
+.ptitle {
+	font-size: 23px;
+}
+
+.innov {
+	text-align: center;
+	color: $gray;
+	font-size: 20px;
+}
+
+.blue1 {
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+	border: 3px solid none;
+	@include border-radius;
+	background-color: $marineblue;
+	display: inline;
+	padding: 20px;
+	color: $white;
+	position: $position2;
+	right: 50px;
+}
+
+.blue2 {
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+	border: 3px solid none;
+	@include border-radius;
+	background-color: $marineblue;
+	display: inline;
+	padding: 20px;
+	color: $white;
+	position: $position2;
+	right: 20px;
+}
+
+.orange {
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+	border: 3px solid none;
+	@include border-radius;
+	background-color: $orange;
+	display: inline;
+	padding: 20px;
+	color: $white;
+}
+
+.buttons {
+	display: flex;
+	justify-content: center;
+}
+
+body {
+	font-family: $font_0, $font_1;
+}
+
+a {
+	color: $white;
+	text-decoration: none;
+}
+
+.logo {
+	margin-right: 900px;
+}
+
+.logoshaut {
+	text-align: center;
+}
+
+.logobas {
+	text-align: center;
+}
+
+.thelogos {
+	background-color: $banner;
+	padding: 20px;
+}
+
+footer {
+	background-color: $darkgrey;
+	color: $white;
+	padding: 10px;
+	font-family: $font_0, $font_1;
+	font-size: 12px;
+	font-weight: bold;
+	word-spacing: 20px;
+}
+
+.copy {
+	position: $position;
+	right: 50px;
+}
